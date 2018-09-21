@@ -1,402 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="907dad9c-daf4-4e0b-a796-cfd5523fb7a1" name="Default" comment="Duplicate code in order to start refactoring original code.">
-      <change afterPath="$PROJECT_DIR$/original/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/css/demo-documentation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/css/material-dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/img/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/img/cover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/img/faces/marc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/img/mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/img/new_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/img/reactlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/img/sidebar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/img/sidebar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/img/sidebar-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/img/sidebar-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/img/tim_80x80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/assets/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/documentation/tutorial-components.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/public/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/css/material-dashboard-react.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/angular.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/dashboard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/edge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/firefox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/map.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/md-react.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/notifications.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/opera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/opt_md_angular_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/opt_md_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/opt_md_vue_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/opt_mdr_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/safari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/tables.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/userprofile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/github/vuejs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/img/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/img/cover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/img/faces/marc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/img/mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/img/new_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/img/reactlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/img/sidebar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/img/sidebar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/img/sidebar-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/img/sidebar-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/img/tim_80x80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/cardImagesStyles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/checkboxAdnRadioStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/buttonStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/cardAvatarStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/cardBodyStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/cardFooterStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/cardIconStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/cardStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/customInputStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/customTabsStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/footerStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/headerLinksStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/headerStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/sidebarStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/snackbarContentStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/tableStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/tasksStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/components/typographyStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/dropdownStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/layouts/dashboardStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/tooltipStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/views/dashboardStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/assets/jss/material-dashboard-react/views/iconsStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Card/Card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Card/CardAvatar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Card/CardBody.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Card/CardFooter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Card/CardHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Card/CardIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/CustomButtons/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/CustomInput/CustomInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/CustomTabs/CustomTabs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Grid/GridContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Grid/GridItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Header/HeaderLinks.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Sidebar/Sidebar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Snackbar/Snackbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Snackbar/SnackbarContent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Table/Table.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Tasks/Tasks.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Typography/Danger.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Typography/Info.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Typography/Muted.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Typography/Primary.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Typography/Quote.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Typography/Success.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/components/Typography/Warning.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/layouts/Dashboard/Dashboard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/routes/dashboard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/routes/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/variables/charts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/variables/general.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/views/Dashboard/Dashboard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/views/Icons/Icons.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/views/Maps/Maps.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/views/Notifications/Notifications.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/views/TableList/TableList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/views/Typography/Typography.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/views/UpgradeToPro/UpgradeToPro.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/original/src/views/UserProfile/UserProfile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/css/demo-documentation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/css/material-dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/img/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/img/cover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/img/faces/marc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/img/mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/img/new_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/img/reactlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/img/sidebar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/img/sidebar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/img/sidebar-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/img/sidebar-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/img/tim_80x80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/assets/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/documentation/tutorial-components.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/public/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/css/material-dashboard-react.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/angular.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/dashboard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/edge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/firefox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/map.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/md-react.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/notifications.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/opera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/opt_md_angular_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/opt_md_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/opt_md_vue_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/opt_mdr_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/safari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/tables.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/userprofile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/github/vuejs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/img/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/img/cover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/img/faces/marc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/img/mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/img/new_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/img/reactlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/img/sidebar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/img/sidebar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/img/sidebar-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/img/sidebar-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/img/tim_80x80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/cardImagesStyles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/checkboxAdnRadioStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/buttonStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/cardAvatarStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/cardBodyStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/cardFooterStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/cardIconStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/cardStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/customInputStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/customTabsStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/footerStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/headerLinksStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/headerStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/sidebarStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/snackbarContentStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/tableStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/tasksStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/components/typographyStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/dropdownStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/layouts/dashboardStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/tooltipStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/views/dashboardStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/assets/jss/material-dashboard-react/views/iconsStyle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Card/Card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Card/CardAvatar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Card/CardBody.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Card/CardFooter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Card/CardHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Card/CardIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/CustomButtons/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/CustomInput/CustomInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/CustomTabs/CustomTabs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Grid/GridContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Grid/GridItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Header/HeaderLinks.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Sidebar/Sidebar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Snackbar/Snackbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Snackbar/SnackbarContent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Table/Table.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Tasks/Tasks.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Typography/Danger.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Typography/Info.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Typography/Muted.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Typography/Primary.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Typography/Quote.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Typography/Success.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/components/Typography/Warning.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/layouts/Dashboard/Dashboard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/routes/dashboard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/routes/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/variables/charts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/variables/general.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/views/Dashboard/Dashboard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/views/Icons/Icons.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/views/Maps/Maps.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/views/Notifications/Notifications.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/views/TableList/TableList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/views/Typography/Typography.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/views/UpgradeToPro/UpgradeToPro.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactored/src/views/UserProfile/UserProfile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="907dad9c-daf4-4e0b-a796-cfd5523fb7a1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/refactored/src/components/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/css/demo-documentation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/css/material-dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/img/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/img/cover.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/img/faces/marc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/img/mask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/img/new_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/img/reactlogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/img/sidebar-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/img/sidebar-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/img/sidebar-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/img/sidebar-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/img/tim_80x80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/assets/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/tutorial-components.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/material-dashboard-react.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/angular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/chrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/dashboard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/edge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/firefox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/map.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/md-react.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/notifications.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/opera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/opt_md_angular_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/opt_md_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/opt_md_vue_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/opt_mdr_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/safari.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/tables.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/userprofile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/github/vuejs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/cover.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/faces/marc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/mask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/new_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/reactlogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/sidebar-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/sidebar-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/sidebar-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/sidebar-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/tim_80x80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/cardImagesStyles.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/checkboxAdnRadioStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/buttonStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardAvatarStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardBodyStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardFooterStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardIconStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/customInputStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/customTabsStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/footerStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/headerLinksStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/headerStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/sidebarStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/snackbarContentStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/tableStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/tasksStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/typographyStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/dropdownStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/layouts/dashboardStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/tooltipStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/views/dashboardStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/views/iconsStyle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/CardAvatar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/CardBody.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/CardFooter.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/CardHeader.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/CardIcon.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomButtons/Button.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomInput/CustomInput.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomTabs/CustomTabs.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Grid/GridContainer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Grid/GridItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Snackbar/Snackbar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Snackbar/SnackbarContent.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tasks/Tasks.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/Danger.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/Info.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/Muted.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/Primary.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/Quote.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/Success.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/Warning.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Dashboard/Dashboard.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/dashboard.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables/charts.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables/general.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Icons/Icons.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Maps/Maps.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Notifications/Notifications.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/TableList/TableList.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Typography/Typography.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/UpgradeToPro/UpgradeToPro.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/UserProfile/UserProfile.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/original/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/original/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/css/demo-documentation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/css/material-dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/img/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/img/cover.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/img/faces/marc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/img/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/img/new_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/img/reactlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/img/sidebar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/img/sidebar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/img/sidebar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/img/sidebar-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/img/tim_80x80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/assets/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/documentation/tutorial-components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/original/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/original/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/src/components/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/original/src/components/Sidebar/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/src/layouts/Dashboard/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/original/src/layouts/Dashboard/Dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/original/src/routes/dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/original/src/routes/dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/css/demo-documentation.css" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/css/demo-documentation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/css/material-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/css/material-dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/img/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/img/apple-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/img/cover.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/img/cover.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/img/faces/marc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/img/faces/marc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/img/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/img/mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/img/new_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/img/new_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/img/reactlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/img/reactlogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/img/sidebar-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/img/sidebar-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/img/sidebar-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/img/sidebar-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/img/sidebar-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/img/sidebar-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/img/sidebar-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/img/sidebar-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/img/tim_80x80.png" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/img/tim_80x80.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/assets/js/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/assets/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/documentation/tutorial-components.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/tutorial-components.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/layouts/Dashboard/Dashboard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/routes/dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/routes/dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/routes/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/routes/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/views/Dashboard/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/views/Dashboard/DashboardView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/views/Icons/Icons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/views/Icons/IconsView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/views/Maps/Maps.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/views/Maps/MapsView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/views/Notifications/Notifications.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/views/Notifications/NotificationsView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/views/TableList/TableList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/views/TableList/TableListView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/views/Typography/Typography.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/views/Typography/TypographyView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/views/UserProfile/UserProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/views/UserProfile/UserProfileView.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -410,11 +75,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/original/.babelrc">
+      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/refactored/src/components/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardLayout.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/refactored/src/layouts/Dashboard/DashboardLayout.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-81">
+              <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MRouter.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/refactored/src/components/MRouter.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -423,18 +112,33 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>root</find>
       <find>Dashboard/Dashboard</find>
       <find>dashboardRoutes</find>
       <find>&lt;App</find>
       <find>switchRoutes</find>
       <find>dashboardStyle</find>
       <find>&lt;Das</find>
-      <find>App</find>
       <find>mainPanel</find>
       <find />
       <find>Dashboard.jsx</find>
+      <find />
+      <find>root</find>
+      <find>byid</find>
+      <find>/src/</find>
+      <find>index.js</find>
+      <find>App</find>
+      <find>`</find>
+      <find>prop-types</find>
+      <find>DashboardLayout</find>
+      <find>DashboardPage</find>
+      <find>UserProfile</find>
+      <find>Icons</find>
+      <find>active</find>
+      <find>activepro</find>
     </findStrings>
+    <replaceStrings>
+      <replace>DashboardView</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -448,6 +152,20 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/original/.babelrc" />
+        <option value="$PROJECT_DIR$/refactored/.babelrc" />
+        <option value="$PROJECT_DIR$/original/src/components/Sidebar/Sidebar.jsx" />
+        <option value="$PROJECT_DIR$/original/package.json" />
+        <option value="$PROJECT_DIR$/original/public/index.html" />
+        <option value="$PROJECT_DIR$/refactored/public/index.html" />
+        <option value="$PROJECT_DIR$/original/src/layouts/Dashboard/Dashboard.jsx" />
+        <option value="$PROJECT_DIR$/refactored/src/index.js" />
+        <option value="$PROJECT_DIR$/refactored/src/components/Router.jsx" />
+        <option value="$PROJECT_DIR$/refactored/src/components/App.jsx" />
+        <option value="$PROJECT_DIR$/refactored/src/layouts/Dashboard/Dashboard.jsx" />
+        <option value="$PROJECT_DIR$/refactored/src/routes/index.jsx" />
+        <option value="$PROJECT_DIR$/refactored/src/layouts/Dashboard/DashboardLayout.jsx" />
+        <option value="$PROJECT_DIR$/refactored/package.json" />
+        <option value="$PROJECT_DIR$/refactored/src/routes/dashboard.jsx" />
       </list>
     </option>
   </component>
@@ -462,10 +180,10 @@
     <handled-path value="$PROJECT_DIR$/refactored/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="331" />
-    <option name="y" value="-10" />
-    <option name="width" value="1291" />
-    <option name="height" value="999" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -483,7 +201,13 @@
             <path>
               <item name="Material-UI-Desktop" type="b2602c69:ProjectViewProjectNode" />
               <item name="Material-UI-Desktop" type="462c0819:PsiDirectoryNode" />
-              <item name="original" type="462c0819:PsiDirectoryNode" />
+              <item name="refactored" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Material-UI-Desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Material-UI-Desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -492,8 +216,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/cdimizas/Desktop/DIM/coding_skills_power_up/Material-UI-Desktop/refactored/public/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/original/build/service-worker.js" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/mtapp/frontend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -506,7 +232,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -539,7 +265,7 @@
       <workItem from="1537191292802" duration="2228000" />
       <workItem from="1537521967303" duration="2094000" />
       <workItem from="1537525827644" duration="656000" />
-      <workItem from="1537528040920" duration="982000" />
+      <workItem from="1537528040920" duration="6580000" />
     </task>
     <task id="LOCAL-00001" summary="Minor changes. Will start refactoring for a better grasp of the working environment.">
       <created>1537193421382</created>
@@ -548,11 +274,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537193421382</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Duplicate code in order to start refactoring original code.">
+      <created>1537529166246</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537529166246</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6728000" />
+    <option name="totallyTimeSpent" value="12326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,15 +300,16 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16438356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16438356" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Messages" weight="0.32960895" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33184358" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -584,7 +318,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,6 +384,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/assets/css/material-dashboard-react.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/assets/css/demo-documentation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="82" column="34" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/assets/css/material-dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="5569" column="23" selection-start-line="5569" selection-start-column="23" selection-end-line="5569" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/documentation/assets/css/material-dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="5584" column="20" selection-start-line="5584" selection-start-column="20" selection-end-line="5584" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/src/components/Sidebar/Sidebar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/tutorial-components.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/original/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -658,5 +445,182 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/original/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/LICENSE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/bower.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/build/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/build/service-worker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/build/static/js/main.7e299a20.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/src/layouts/Dashboard/Dashboard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#394#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/.eslintignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/bower.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/components/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/layouts/Dashboard/DashboardLayout.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/views/Dashboard/DashboardView.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="40" column="90" lean-forward="true" selection-start-line="40" selection-start-column="90" selection-end-line="40" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/views/UserProfile/UserProfileView.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2613" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/routes/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/components/Sidebar/Sidebar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/routes/dashboard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+          <folding>
+            <element signature="e#502#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/components/MRouter.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

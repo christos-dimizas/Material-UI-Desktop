@@ -1,4 +1,4 @@
-# [Material Dashboard React](https://demos.creative-tim.com/material-dashboard-react/#/dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fcreativetimofficial.github.io%2Fmaterial-dashboard-react&text=Material%20Dashboard%20React%20-%20Free%20Bootstrap%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fmaterial-dashboard-react%2F%3F_ga%3D2.10428917.198078103.1532329372-1803433978.1528781151&via=creativetim&hashtags=react%2Cmaterial-ui)
+# [Material DashboardView React](https://demos.creative-tim.com/material-dashboard-react/#/dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fcreativetimofficial.github.io%2Fmaterial-dashboard-react&text=Material%20Dashboard%20React%20-%20Free%20Bootstrap%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fmaterial-dashboard-react%2F%3F_ga%3D2.10428917.198078103.1532329372-1803433978.1528781151&via=creativetim&hashtags=react%2Cmaterial-ui)
 
 
 
@@ -6,13 +6,13 @@
 
 ![Product Gif](src/assets/github/md-react.gif)
 
-Material Dashboard React is a free Material-UI Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material Dashboard React was built over the popular Material-UI framework.
+Material DashboardView React is a free Material-UI Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material DashboardView React was built over the popular Material-UI framework.
 
-Material Dashboard React makes use of light, surface and movement. The general layout resembles sheets of paper following multiple different layers, so that the depth and order is obvious. The navigation stays mainly on the left sidebar and the content is on the right inside the main panel.
+Material DashboardView React makes use of light, surface and movement. The general layout resembles sheets of paper following multiple different layers, so that the depth and order is obvious. The navigation stays mainly on the left sidebar and the content is on the right inside the main panel.
 
-Material Dashboard React comes with 5 color filter choices for both the sidebar and the card headers (blue, green, orange, red and purple) and an option to have a background image on the sidebar.
+Material DashboardView React comes with 5 color filter choices for both the sidebar and the card headers (blue, green, orange, red and purple) and an option to have a background image on the sidebar.
 
-Material Dashboard React uses a framework built by our friend [Olivier - Material-UI](https://github.com/mui-org/material-ui), who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.
+Material DashboardView React uses a framework built by our friend [Olivier - Material-UI](https://github.com/mui-org/material-ui), who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.
 
 Special thanks go to:
 + [React-chartist](https://github.com/fraserxu/react-chartist) for the wonderful charts.
@@ -46,13 +46,13 @@ You can find the Github Repo here.
 
 | HTML | React | Vue | Angular |
 | --- | --- | --- | --- |
-| [![Material Dashboard HTML](src/assets/github/opt_md_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard) | [![Material Dashboard React](src/assets/github/opt_mdr_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-react) | [![Vue Material Dashboard ](src/assets/github/opt_md_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-material-dashboard) | [![Material Dashboard Angular](src/assets/github/opt_md_angular_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-angular2)
+| [![Material DashboardView HTML](src/assets/github/opt_md_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard) | [![Material DashboardView React](src/assets/github/opt_mdr_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-react) | [![Vue Material DashboardView ](src/assets/github/opt_md_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-material-dashboard) | [![Material DashboardView Angular](src/assets/github/opt_md_angular_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-angular2)
 
 ## Demo
 
-| Dashboard | User Profile | Tables | Maps | Notification |
+| DashboardView | User Profile | Tables | MapsView | Notification |
 | --- | --- | --- | --- | --- |
-| [![Start page](src/assets/github/dashboard.png)](https://demos.creative-tim.com/material-dashboard-react/#/dashboard) | [![User profile page](src/assets/github/user_profile.png)](https://demos.creative-tim.com/material-dashboard-react/#/user) | [![Tables page ](src/assets/github/tables.png)](https://demos.creative-tim.com/material-dashboard-react/#/table) | [![Maps Page](src/assets/github/maps.png)](https://demos.creative-tim.com/material-dashboard-react/#/maps) | [![Notification page](src/assets/github/notification.png)](https://demos.creative-tim.com/material-dashboard-react/#/notifications)
+| [![Start page](src/assets/github/dashboard.png)](https://demos.creative-tim.com/material-dashboard-react/#/dashboard) | [![User profile page](src/assets/github/user_profile.png)](https://demos.creative-tim.com/material-dashboard-react/#/user) | [![Tables page ](src/assets/github/tables.png)](https://demos.creative-tim.com/material-dashboard-react/#/table) | [![MapsView Page](src/assets/github/maps.png)](https://demos.creative-tim.com/material-dashboard-react/#/maps) | [![Notification page](src/assets/github/notification.png)](https://demos.creative-tim.com/material-dashboard-react/#/notifications)
 
 [View More](https://demos.creative-tim.com/material-dashboard-react/#/dashboard).
 
@@ -68,7 +68,7 @@ Quick start options:
 
 
 ## Documentation
-The documentation for the Material Dashboard React is hosted at our [website](https://demos.creative-tim.com/material-dashboard-react/#/documentation/tutorial).
+The documentation for the Material DashboardView React is hosted at our [website](https://demos.creative-tim.com/material-dashboard-react/#/documentation/tutorial).
 
 
 ## File Structure
@@ -170,8 +170,8 @@ material-dashboard-react
     │       └── Warning.jsx
     ├── index.js
     ├── layouts
-    │   └── Dashboard
-    │       └── Dashboard.jsx
+    │   └── DashboardView
+    │       └── DashboardLayout.jsx
     ├── logo.svg
     ├── routes
     │   ├── dashboard.jsx
@@ -180,22 +180,22 @@ material-dashboard-react
     │   ├── charts.jsx
     │   └── general.jsx
     └── views
-        ├── Dashboard
-        │   └── Dashboard.jsx
-        ├── Icons
-        │   └── Icons.jsx
-        ├── Maps
-        │   └── Maps.jsx
-        ├── Notifications
-        │   └── Notifications.jsx
-        ├── TableList
-        │   └── TableList.jsx
+        ├── DashboardView
+        │   └── DashboardLayout.jsx
+        ├── IconsView
+        │   └── IconsView.jsx.jsx
+        ├── MapsView
+        │   └── MapsView.jsx.jsx
+        ├── NotificationsView
+        │   └── NotificationsViewView.jsx
+        ├── TableListView
+        │   └── TableListView.jsx.jsx
         ├── Typography
-        │   └── Typography.jsx
+        │   └── TypographyView.jsx
         ├── UpgradeToPro
         │   └── UpgradeToPro.jsx
-        └── UserProfile
-            └── UserProfile.jsx
+        └── UserProfileView
+            └── UserProfileView.jsx.jsx
 ```
 
 ## Browser Support
@@ -215,9 +215,9 @@ At present, we officially aim to support the last two versions of the following 
 - [Material Kit React - For Front End Development](https://www.creative-tim.com/product/material-kit-react?ref=github-mdr-free)
 
 ## Reporting Issues
-We use GitHub Issues as the official bug tracker for the Material Dashboard React. Here are some advices for our users that want to report an issue:
+We use GitHub Issues as the official bug tracker for the Material DashboardView React. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Material Dashboard React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
+1. Make sure that you are using the latest version of the Material DashboardView React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 

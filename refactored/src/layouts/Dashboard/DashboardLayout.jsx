@@ -29,7 +29,7 @@ const switchRoutes = (
   </Switch>
 );
 
-class App extends React.Component {
+class DashboardLayout extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -71,7 +71,7 @@ class App extends React.Component {
       <div className={classes.wrapper}>
         <Sidebar
           routes={dashboardRoutes}
-          logoText={"Creative Tim"}
+          logoText={"REFACTORED Dev"}
           logo={logo}
           image={image}
           handleDrawerToggle={this.handleDrawerToggle}
@@ -100,8 +100,8 @@ class App extends React.Component {
   }
 }
 
-App.propTypes = {
+DashboardLayout.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(dashboardStyle)(App);
+export default withStyles(dashboardStyle)(DashboardLayout);

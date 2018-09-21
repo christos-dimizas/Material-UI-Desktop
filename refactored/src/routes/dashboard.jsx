@@ -8,14 +8,13 @@ import LocationOn from "@material-ui/icons/LocationOn";
 import Notifications from "@material-ui/icons/Notifications";
 import Unarchive from "@material-ui/icons/Unarchive";
 // core components/views
-import DashboardPage from "views/Dashboard/Dashboard.jsx";
-import UserProfile from "views/UserProfile/UserProfile.jsx";
-import TableList from "views/TableList/TableList.jsx";
-import Typography from "views/Typography/Typography.jsx";
-import Icons from "views/Icons/Icons.jsx";
-import Maps from "views/Maps/Maps.jsx";
-import NotificationsPage from "views/Notifications/Notifications.jsx";
-import UpgradeToPro from "views/UpgradeToPro/UpgradeToPro.jsx";
+import DashboardView from "../views/Dashboard/DashboardView.jsx";
+import UserProfileView from "../views/UserProfile/UserProfileView.jsx";
+import TableListView from "../views/TableList/TableListView.jsx";
+import TypographyView from "../views/Typography/TypographyView.jsx";
+import IconsView from "../views/Icons/IconsView.jsx";
+import MapsView from "../views/Maps/MapsView.jsx";
+import NotificationsView from "../views/Notifications/NotificationsView.jsx";
 
 const dashboardRoutes = [
   {
@@ -23,56 +22,49 @@ const dashboardRoutes = [
     sidebarName: "Dashboard",
     navbarName: "Material Dashboard",
     icon: Dashboard,
-    component: DashboardPage
+    component: DashboardView
   },
   {
     path: "/user",
     sidebarName: "User Profile",
     navbarName: "Profile",
     icon: Person,
-    component: UserProfile
+    component: UserProfileView
   },
   {
     path: "/table",
     sidebarName: "Table List",
     navbarName: "Table List",
     icon: "content_paste",
-    component: TableList
+    component: TableListView
   },
   {
     path: "/typography",
     sidebarName: "Typography",
     navbarName: "Typography",
     icon: LibraryBooks,
-    component: Typography
+    component: TypographyView
   },
   {
     path: "/icons",
     sidebarName: "Icons",
     navbarName: "Icons",
     icon: BubbleChart,
-    component: Icons
+    component: IconsView
   },
   {
     path: "/maps",
     sidebarName: "Maps",
     navbarName: "Map",
     icon: LocationOn,
-    component: Maps
+    component: MapsView
   },
   {
     path: "/notifications",
     sidebarName: "Notifications",
     navbarName: "Notifications",
     icon: Notifications,
-    component: NotificationsPage
-  },
-  {
-    path: "/upgrade-to-pro",
-    sidebarName: "Upgrade To PRO",
-    navbarName: "Upgrade To PRO",
-    icon: Unarchive,
-    component: UpgradeToPro
+    component: NotificationsView
   },
   { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }
 ];
