@@ -7,7 +7,7 @@ import mockStore from "../mockStore";
 
 export const fetchDashboard = () => ({
    type: "FETCH_DASHBOARD",
-   payload: mockStore.dashboard
+   payload: {...mockStore.dashboard}
 });
 
 export const increaseAvailableDiskSpace = (newSpace) => {

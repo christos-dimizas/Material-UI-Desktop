@@ -46,7 +46,7 @@ import { fetchDashboard, increaseAvailableDiskSpace } from "../../store/actions"
 
 class DashboardView extends React.Component {
    state = {
-      value: 0
+      value: 0,
    };
 
    componentWillReceiveProps(nextProps) {
@@ -299,11 +299,7 @@ class DashboardView extends React.Component {
 DashboardView.propTypes = {
    classes: PropTypes.object.isRequired
 };
-const mapStoreStateToProps = () => {
-   return {
-      dashboardData: fetchDashboard().payload
-   };
-};
+const mapStoreStateToProps = () => ({ dashboardData: fetchDashboard().payload });
 
 const mapDispatchToProps = (dispatch) => {
    return {
