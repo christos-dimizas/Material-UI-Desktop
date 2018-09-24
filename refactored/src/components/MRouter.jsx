@@ -1,8 +1,11 @@
 import React from "react";
 import { Router, Route, Switch } from "react-router-dom";
 import indexRoutes from "../routes";
+import {connect} from 'react-redux';
+// Store Actions
+import * as actions from "../store/actions";
 
-export default class MRouter extends React.Component {
+class MRouter extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -25,3 +28,5 @@ export default class MRouter extends React.Component {
     );
   }
 }
+
+export default connect(null, actions)(MRouter);
