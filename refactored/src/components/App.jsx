@@ -1,8 +1,8 @@
-import React from "react";
-import MRouter from "./MRouter.jsx";
-import {connect} from 'react-redux';
+import React from 'react';
+import { connect } from 'react-redux';
+import MRouter from './MRouter.jsx';
 // Store Actions
-import * as actions from "../store/actions";
+import * as actions from '../store/actions';
 
 class App extends React.Component {
    constructor(props) {
@@ -11,7 +11,7 @@ class App extends React.Component {
 
    render() {
       return (
-       <MRouter history={this.props.history} />
+        <MRouter history={this.props.history} />
       );
    }
 }

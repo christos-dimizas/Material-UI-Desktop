@@ -4,8 +4,8 @@ const mockStore = {
          header: 'Used Space',
          spaceUsed: '49',
          spaceAvailable: '50',
-         units: 'GB'
-      }
+         units: 'GB',
+      },
    },
    userData: {},
 };
