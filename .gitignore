@@ -34,3 +34,6 @@
 /refactored/yarn-debug.log*
 /original/yarn-error.log*
 /refactored/yarn-error.log*
+
+# Enzyme snapshots
+__snapshots__
