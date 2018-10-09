@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="907dad9c-daf4-4e0b-a796-cfd5523fb7a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/original/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/original/src/layouts/Dashboard/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/original/src/layouts/Dashboard/Dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactored/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactored/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactored/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactored/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactored/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactored/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactored/src/components/MRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/components/MRouter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactored/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactored/src/layouts/Dashboard/DashboardLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/layouts/Dashboard/DashboardLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactored/src/routes/dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/routes/dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactored/src/routes/index.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/refactored/src/store/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/store/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactored/src/store/mockStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/store/mockStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/store/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/store/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/store/mockStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/store/defaultStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/refactored/src/store/reducers/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/store/reducers/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/store/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/variables/charts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/variables/charts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/variables/general.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/variables/general.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/refactored/src/views/Dashboard/DashboardView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/views/Dashboard/DashboardView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refactored/src/views/UserProfile/UserProfileView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/refactored/src/views/UserProfile/UserProfileView.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,26 +25,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DashboardView.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/refactored/src/views/Dashboard/DashboardView.jsx">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/refactored/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="304" selection-start-line="304" selection-end-line="304" selection-end-column="81" />
+            <state relative-caret-position="220">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#203#264#0" expanded="true" />
-                <element signature="e#330#375#0" expanded="true" />
-                <element signature="e#923#975#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserProfileView.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/refactored/src/views/UserProfile/UserProfileView.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-584">
+              <caret line="73" column="45" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="45" />
+              <folding>
+                <element signature="e#59#120#0" expanded="true" />
+                <element signature="e#195#247#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/refactored/src/store/actions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="540">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="e#0#73#0" expanded="true" />
               </folding>
@@ -62,50 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/refactored/src/store/reducers/dashboard.js">
+      <file leaf-file-name="defaultStore.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/refactored/src/store/defaultStore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/refactored/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/refactored/src/components/App.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MRouter.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/refactored/src/components/MRouter.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -114,9 +75,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>DashboardPage</find>
-      <find>UserProfile</find>
-      <find>Icons</find>
       <find>active</find>
       <find>activepro</find>
       <find>info_out</find>
@@ -127,7 +85,6 @@
       <find>fetchDashboard</find>
       <find>dashboard</find>
       <find>dashboardData</find>
-      <find>DashboardView</find>
       <find>getRoute</find>
       <find>Get more space</find>
       <find>createStore</find>
@@ -142,8 +99,12 @@
       <find>mainPanel</find>
       <find>dashboardRoutes</find>
       <find>storeData</find>
-      <find>increaseAvailableDiskSpace</find>
       <find>props</find>
+      <find>Button</find>
+      <find>increaseAvailableDiskSpace</find>
+      <find>DashboardView</find>
+      <find>delays</find>
+      <find>dailySalesChart</find>
     </findStrings>
     <replaceStrings>
       <replace>DashboardView</replace>
@@ -152,6 +113,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/refactored/src/views/Dashboard/DashboardView.jsx" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -177,21 +141,25 @@
         <option value="$PROJECT_DIR$/refactored/public/index.html" />
         <option value="$PROJECT_DIR$/original/public/index.html" />
         <option value="$PROJECT_DIR$/refactored/src/store/reducers/dashboardStore.js" />
-        <option value="$PROJECT_DIR$/refactored/src/store/reducers/index.js" />
-        <option value="$PROJECT_DIR$/refactored/src/store/actions/types.js" />
         <option value="$PROJECT_DIR$/refactored/.eslintrc.js" />
         <option value="$PROJECT_DIR$/refactored/package.json" />
-        <option value="$PROJECT_DIR$/refactored/src/store/actions/index.js" />
         <option value="$PROJECT_DIR$/refactored/src/store/mockStore.js" />
-        <option value="$PROJECT_DIR$/refactored/src/views/Dashboard/DashboardView.jsx" />
         <option value="$PROJECT_DIR$/refactored/.eslintrc" />
-        <option value="$PROJECT_DIR$/refactored/src/store/reducers/dashboard.js" />
         <option value="$PROJECT_DIR$/refactored/src/routes/index.jsx" />
         <option value="$PROJECT_DIR$/refactored/src/layouts/Dashboard/DashboardLayout.jsx" />
         <option value="$PROJECT_DIR$/refactored/src/routes/dashboard.jsx" />
         <option value="$PROJECT_DIR$/refactored/src/index.js" />
         <option value="$PROJECT_DIR$/refactored/src/components/App.jsx" />
         <option value="$PROJECT_DIR$/refactored/src/components/MRouter.jsx" />
+        <option value="$PROJECT_DIR$/refactored/src/store/reducers/index.js" />
+        <option value="$PROJECT_DIR$/refactored/src/store/reducers/dashboard.js" />
+        <option value="$PROJECT_DIR$/refactored/src/store/actions/types.js" />
+        <option value="$PROJECT_DIR$/refactored/src/views/Dashboard/DashboardView.jsx" />
+        <option value="$PROJECT_DIR$/refactored/src/variables/general.jsx" />
+        <option value="$PROJECT_DIR$/refactored/src/variables/charts.jsx" />
+        <option value="$PROJECT_DIR$/refactored/src/views/UserProfile/UserProfileView.jsx" />
+        <option value="$PROJECT_DIR$/refactored/src/store/defaultStore.js" />
+        <option value="$PROJECT_DIR$/refactored/src/store/actions/index.js" />
       </list>
     </option>
   </component>
@@ -249,6 +217,44 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Material-UI-Desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Material-UI-Desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Material-UI-Desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Material-UI-Desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Material-UI-Desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Material-UI-Desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Material-UI-Desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Material-UI-Desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Material-UI-Desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Material-UI-Desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="refactored" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="UserProfile" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -256,9 +262,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/cdimizas/Desktop/DIM/coding_skills_power_up/Material-UI-Desktop/refactored/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/cdimizas/Desktop/DIM/coding_skills_power_up/Material-UI-Desktop/refactored/src/views/Dashboard/DashboardView.jsx" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/original/build/service-worker.js&#10;C:/Users/cdimizas/Desktop/DIM/coding_skills_power_up/Material-UI-Desktop/refactored/node_modules/react-scripts/config/paths.js" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/refactored/node_modules/react-chartist/dist/index.js&#10;C:/Users/cdimizas/Desktop/DIM/coding_skills_power_up/Material-UI-Desktop/original/build/service-worker.js&#10;C:/Users/cdimizas/Desktop/DIM/coding_skills_power_up/Material-UI-Desktop/refactored/node_modules/react-scripts/config/paths.js" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
@@ -308,7 +314,8 @@
       <workItem from="1537525827644" duration="656000" />
       <workItem from="1537528040920" duration="8577000" />
       <workItem from="1537770854697" duration="23463000" />
-      <workItem from="1538989210512" duration="11410000" />
+      <workItem from="1538989210512" duration="13615000" />
+      <workItem from="1539068580616" duration="5998000" />
     </task>
     <task id="LOCAL-00001" summary="Minor changes. Will start refactoring for a better grasp of the working environment.">
       <created>1537193421382</created>
@@ -345,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537799748190</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Redux updates">
+      <created>1539003565650</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539003565650</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49196000" />
+    <option name="totallyTimeSpent" value="57399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,12 +383,12 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32960895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.33184358" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -422,7 +436,8 @@
     <MESSAGE value="Start refactoring dashboard" />
     <MESSAGE value="Add redux store to Material Desktop. It needs debugging." />
     <MESSAGE value="Minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor changes" />
+    <MESSAGE value="Redux updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redux updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -430,7 +445,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.eslintrc.js" />
     <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/layouts/dashboardStyle.jsx" />
     <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" />
@@ -528,11 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/src/views/UserProfile/UserProfileView.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2613" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/refactored/src/components/Sidebar/Sidebar.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -568,16 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/src/store/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/refactored/src/assets/css/material-dashboard-react.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -592,9 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/.env">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/refactored/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -602,17 +598,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/.eslintignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/refactored/node_modules/react-scripts/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!block;n#dependencies#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/refactored/node_modules/react-scripts/config/paths.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -632,34 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-          <folding>
-            <element signature="n#!!block;n#globals#0;n#!!top" />
-            <element signature="e#320#502#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/src/store/mockStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/src/store/actions/types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="71" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/src/store/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,68 +632,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/src/views/Dashboard/DashboardView.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="304" selection-start-line="304" selection-end-line="304" selection-end-column="81" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#203#264#0" expanded="true" />
-            <element signature="e#330#375#0" expanded="true" />
-            <element signature="e#923#975#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/src/store/reducers/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/src/components/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/src/routes/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/refactored/src/routes/dashboard.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="70" column="30" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="30" />
-          <folding>
-            <element signature="e#22#75#0" expanded="true" />
-            <element signature="e#187#246#0" expanded="true" />
-            <element signature="e#502#567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/routes/index.jsx" />
     <entry file="file://$PROJECT_DIR$/refactored/src/layouts/Dashboard/DashboardLayout.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-573">
@@ -746,12 +644,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/components/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/refactored/src/components/MRouter.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/store/actions/types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/store/reducers/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="95" lean-forward="true" selection-start-column="95" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/store/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/routes/dashboard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#22#75#0" expanded="true" />
+            <element signature="e#187#246#0" expanded="true" />
+            <element signature="e#448#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/variables/general.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/node_modules/react-chartist/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/variables/charts.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1247">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1790#2046#0" />
+            <element signature="e#2059#2221#0" />
+            <element signature="e#2497#2714#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/views/Dashboard/DashboardView.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="170" column="25" lean-forward="true" selection-start-line="170" selection-start-column="25" selection-end-line="170" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#203#264#0" expanded="true" />
+            <element signature="e#923#981#0" expanded="true" />
+            <element signature="e#4569#5291#0" />
+            <element signature="e#5306#6004#0" />
+            <element signature="e#9498#12090#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/store/defaultStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/views/UserProfile/UserProfileView.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-584">
+          <caret line="73" column="45" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="45" />
+          <folding>
+            <element signature="e#59#120#0" expanded="true" />
+            <element signature="e#195#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refactored/src/store/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
