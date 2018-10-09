@@ -1,4 +1,5 @@
 import React from 'react';
+import _ from 'lodash';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 // react plugin for creating charts
@@ -43,7 +44,7 @@ import {
 import dashboardStyle from '../../assets/jss/material-dashboard-react/views/dashboardStyle.jsx';
 
 // Store Actions
-import { fetchDashboard, increaseAvailableDiskSpace, increaseRevenue } from '../../store/actions';
+import { fetchDashboardAction, increaseAvailableDiskSpaceAction, increaseRevenueAction } from '../../store/actions';
 
 class DashboardView extends React.Component {
    state = {
@@ -53,6 +54,10 @@ class DashboardView extends React.Component {
 
    componentWillReceiveProps(nextProps) {
       console.log('nextProps', nextProps);
+      // TODO - first must check if nextProps and this.props are different
+      if(!_.isEqual(nextProps.dashboardData, this.props.dashboardData)) {
+         this.setState({ dashboardData: nextProps.dashboardData });
+      }
    }
 
    handleChange = (event, value) => {
@@ -65,14 +70,12 @@ class DashboardView extends React.Component {
 
    addSpace = e => {
       e.preventDefault();
-      this.props.increaseAvailableDiskSpace('10');
-      this.setState({ dashboardData: this.props.dashboardData });
+      this.props.increaseAvailableDiskSpaceAction('10');
    };
 
    increaceRevenue = e => {
       e.preventDefault();
-      this.props.increaseRevenue('10');
-      this.setState({ dashboardData: this.props.dashboardData });
+      this.props.increaseRevenueAction('10');
    };
 
    render() {
@@ -309,11 +312,11 @@ class DashboardView extends React.Component {
 DashboardView.propTypes = {
    classes: PropTypes.object.isRequired,
 };
-const mapStoreStateToProps = () => ({ dashboardData: fetchDashboard().payload });
+const mapStoreStateToProps = () => ({ dashboardData: fetchDashboardAction().payload });
 
 const mapDispatchToProps = (dispatch) => ({
-   increaseAvailableDiskSpace: text => dispatch(increaseAvailableDiskSpace(text)),
-   increaseRevenue: text => dispatch(increaseRevenue(text)),
+   increaseAvailableDiskSpaceAction: text => dispatch(increaseAvailableDiskSpaceAction(text)),
+   increaseRevenueAction: text => dispatch(increaseRevenueAction(text)),
 });
 
 export default connect(mapStoreStateToProps, mapDispatchToProps)(withStyles(dashboardStyle)(DashboardView));

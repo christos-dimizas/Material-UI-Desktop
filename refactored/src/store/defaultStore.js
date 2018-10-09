@@ -12,7 +12,7 @@ const defaultStore = {
       },
    },
    userProfile: {
-      username: '',
+      username: 'x_dim',
       email: '',
       firstName: '',
       lastName: '',

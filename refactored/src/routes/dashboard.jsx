@@ -8,7 +8,7 @@ import LocationOn from '@material-ui/icons/LocationOn';
 import Notifications from '@material-ui/icons/Notifications';
 // core components/views
 import DashboardView from '../views/Dashboard/DashboardView.jsx';
-import UserProfileView from '../views/UserProfile/UserProfileView.jsx';
+import UserProfileViewContainer from '../views/UserProfile/UserProfileViewContainer.jsx';
 import TableListView from '../views/TableList/TableListView.jsx';
 import TypographyView from '../views/Typography/TypographyView.jsx';
 import IconsView from '../views/Icons/IconsView.jsx';
@@ -28,7 +28,7 @@ const dashboardRoutes = [
       sidebarName: 'User Profile',
       navbarName: 'Profile',
       icon: Person,
-      component: UserProfileView,
+      component: UserProfileViewContainer,
    },
    {
       path: '/table',
