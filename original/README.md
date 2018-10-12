@@ -175,7 +175,7 @@ material-dashboard-react
     ├── logo.svg
     ├── routes
     │   ├── dashboard.jsx
-    │   └── index.jsx
+    │   └── index.js
     ├── variables
     │   ├── charts.jsx
     │   └── general.jsx

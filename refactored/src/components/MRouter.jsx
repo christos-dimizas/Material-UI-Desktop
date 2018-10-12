@@ -1,27 +1,27 @@
-import React from "react";
-import { Router, Route, Switch } from "react-router-dom";
-import indexRoutes from "../routes";
+import React from 'react';
+import { connect } from 'react-redux';
+import { Router, Route, Switch } from 'react-router-dom';
+import DashboardLayout from '../layouts/Dashboard/DashboardLayout';
+// Store Actions
+import * as actions from '../store/actions';
 
-export default class MRouter extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+class MRouter extends React.Component {
+   constructor(props) {
+      super(props);
+   }
 
-  render() {
-    return (
-      <Router history={this.props.history}>
-        <Switch>
-          {indexRoutes.map((prop, key) => {
-            return (
+   render() {
+      return (
+        <Router history={this.props.history}>
+           <Switch>
               <Route
-                path={prop.path}
-                component={prop.component}
-                key={key}
+                path={'/'}
+                component={DashboardLayout}
               />
-            );
-          })}
-        </Switch>
-      </Router>
-    );
-  }
+           </Switch>
+        </Router>
+      );
+   }
 }
+
+export default connect(null, actions)(MRouter);

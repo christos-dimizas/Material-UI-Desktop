@@ -8,13 +8,13 @@ import LocationOn from "@material-ui/icons/LocationOn";
 import Notifications from "@material-ui/icons/Notifications";
 import Unarchive from "@material-ui/icons/Unarchive";
 // core components/views
-import DashboardPage from "views/Dashboard/DashboardLayout.jsx";
-import UserProfile from "views/UserProfile/UserProfileView.jsx";
-import TableList from "views/TableList/TableListView.jsx";
-import Typography from "views/Typography/TypographyView.jsx";
-import Icons from "views/Icons/IconsView.jsx";
-import Maps from "views/MapsView/MapsView.jsx.jsx";
-import NotificationsPage from "views/Notifications/NotificationsView.jsx";
+import DashboardPage from "views/Dashboard/Dashboard.jsx";
+import UserProfile from "views/UserProfile/UserProfile.jsx";
+import TableList from "views/TableList/TableList.jsx";
+import Typography from "views/Typography/Typography.jsx";
+import Icons from "views/Icons/Icons.jsx";
+import Maps from "views/Maps/Maps.jsx";
+import NotificationsPage from "views/Notifications/Notifications.jsx";
 import UpgradeToPro from "views/UpgradeToPro/UpgradeToPro.jsx";
 
 const dashboardRoutes = [
